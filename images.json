@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Kootenay Lake — Winter Morning",
+    "file": "images/sample1.jpg",
+    "location": "Kootenays",
+    "season": "Winter",
+    "category": "Lakes",
+    "orientation": "Horizontal",
+    "keywords": ["lake", "winter", "mountains", "tourism"]
+  },
+  {
+    "title": "Ainsworth Hot Springs — Forest Path",
+    "file": "images/sample2.jpg",
+    "location": "Ainsworth",
+    "season": "All-Season",
+    "category": "Trails",
+    "orientation": "Vertical",
+    "keywords": ["trail", "forest", "wellness", "hot springs"]
+  },
+  {
+    "title": "Nelson — Lake & Town View",
+    "file": "images/sample3.jpg",
+    "location": "Nelson",
+    "season": "Summer",
+    "category": "Town",
+    "orientation": "Horizontal",
+    "keywords": ["town", "lake", "summer", "travel"]
+  }
+]
