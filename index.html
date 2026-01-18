@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NatureStock — BC Tourism Imagery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <div class="brand">Nature<span>Stock</span></div>
+      <div class="links">
+        <a href="index.html">Browse</a>
+        <a href="licensing.html">Licensing</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container hero">
+    <h1>Tourism-ready nature imagery from British Columbia.</h1>
+    <p>
+      Authentic, seasonal photo libraries built for destination marketing, lodges, outdoor brands, and publications.
+      Clear usage rights. No gimmicks. No AI sludge.
+    </p>
+    <div class="cta">
+      <a class="btn primary" href="#browse">Browse the collection</a>
+      <a class="btn" href="contact.html">Request licensing</a>
+    </div>
+  </div>
+
+  <div class="container section" id="browse">
+    <div class="panel">
+      <div class="controls" style="margin-bottom:12px;">
+        <input id="q" type="text" placeholder="Search: lake, winter, trail, Nelson..." style="flex:1;min-width:220px;">
+        <select id="loc"><option value="All">Location</option></select>
+        <select id="season"><option value="All">Season</option></select>
+        <select id="cat"><option value="All">Category</option></select>
+        <div class="small" id="count"></div>
+      </div>
+
+      <div class="grid" id="grid"></div>
+      <div class="small" style="margin-top:10px;">
+        Tip: Click an image to preview. For licensing, go to <a href="licensing.html" style="text-decoration:underline;">Licensing</a>.
+      </div>
+    </div>
+  </div>
+
+  <div id="lightbox">
+    <div>
+      <img id="lbimg" src="" alt="">
+      <div class="meta" id="lbmeta"></div>
+      <div class="meta">Press ESC to close</div>
+    </div>
+  </div>
+
+  <div class="container footer">
+    © <span id="y"></span> NatureStock. Built for licensing, not likes.
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+  <script src="site.js"></script>
+</body>
+</html>
